@@ -1,0 +1,7 @@
+.DS_Store
+
+.vagrant*
+
+# Don't include media in the repo - update as necessary for different
+# extensions.
+music/*.mp3

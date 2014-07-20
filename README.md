@@ -16,13 +16,10 @@ support Linux containers - so basically anything other than Linux)
   available via your favorite package manager)
 
 ## Getting Started
-To bootstrap a basic environment, simply run the following:
+To bootstrap a basic environment, simply run the start script:
 ```shell
-vagrant up icecast mpd --provider=docker
+script/start.sh
 ```
-
-The order in which the images are specified is important as the MPD
-container expects the Icecast container to already be running when it starts.
 
 ## Playing Some Tunes
 The `/music` directory in this repo is synced with the Vagrant environment and
